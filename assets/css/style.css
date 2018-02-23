@@ -1,0 +1,56 @@
+h1 {
+
+    font-family: 'Yellowtail', cursive;
+    font-size: 50pt;
+    color: rgb(42, 51, 83);
+
+
+}
+
+p {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 12pt;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+
+}
+
+h2 {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px;
+
+
+
+
+}
+.btn {
+
+margin: 5px;
+
+}
+h3 {
+
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30pt;
+
+
+}
+
+h4 {
+
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40pt;
+    margin: 20px;
+
+
+}
+body {
+
+    background: linear-gradient(to right, #19547b, rgb(113, 202, 125));   
+
+    }

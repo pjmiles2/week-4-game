@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Pompiere|Yanone+Kaffeesatz|Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+
+
+
+</head>
+<body>
+    
+
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6">
+    <h1>Crystals Collector!</h1>
+    </div>
+    <div class="col-lg-6">
+    <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+</div>
+   <div class="row">
+        <div class="col-lg-2">
+                <button class="btn btn-default" id="red">
+                    <img src="assets/images/red.jpg" width="100" />
+                </button>
+                <br>
+                <button class="btn btn-default" id="green">
+                    <img src="assets/images/green.jpg" width="100" />
+                </button>     
+                <br>
+                <button class="btn btn-default" id="yellow">
+                    <img src="assets/images/yellow.jpg" width="100" />
+                </button>       
+                <br>
+                <button class="btn btn-default" id="blue">
+                    <img src="assets/images/blue.jpg" width="100" />
+                </button>   
+        </div>
+<div class="col-lg-4">
+
+        <h3>Match this total:</h3>
+        <h2 id="computer"></h2>
+        <br>
+        <h3>Your total is:</h3>
+        <h2 id="tally"></h2>
+        <br>
+        <h3 id="status"></h3>
+
+</div>
+
+<div class="col-lg-6">
+<div class="row">
+    <br>
+    <br>
+    <h4 id="wins">Wins:</h4>
+</div>
+<div class="row">
+    <h4 id="losses">Losses:</h4>
+</div>
+</div>
+
+       
+
+</div>
+</div>
+   
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
