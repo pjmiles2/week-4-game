@@ -1,7 +1,8 @@
 
+$(document).ready(function(){
 
 
-//global variables
+  //global variables
 
 var randomNumber;
 var redCrystal;
@@ -11,8 +12,6 @@ var greenCrystal;
 var runningTotal;
 var wins = 0;
 var losses = 0;
-
-$(document).ready(function(){
 
 //random number generator
 function startgame() {
