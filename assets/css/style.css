@@ -1,8 +1,8 @@
 h1 {
 
     font-family: 'Yellowtail', cursive;
-    font-size: 50pt;
-    color: rgb(42, 51, 83);
+    font-size: 60pt;
+    color: rgb(0, 0, 0);
 
 
 }
@@ -21,7 +21,7 @@ h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 60pt;
     margin-top: 20px;
-
+    color: black;
 
 
 
@@ -36,6 +36,7 @@ h3 {
 
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 30pt;
+    color: black;
 
 
 }
@@ -46,11 +47,7 @@ h4 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 40pt;
     margin: 20px;
+    color: black;
 
 
 }
-body {
-
-    background: linear-gradient(to right, #19547b, rgb(113, 202, 125));   
-
-    }
